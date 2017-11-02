@@ -1,5 +1,4 @@
 <?php
-error_reporting( E_ALL ); 
 //BITTREX
 //Building A Simple Bittrex Bot.  We are looking at day trading
 require_once('config.php');
@@ -20,7 +19,6 @@ require_once('inc/cryptocompare.php');
   /* FORMAT BTC */
   function formatBTCString($num){
    return number_format($num,10);
-	//return rtrim(rtrim(sprintf('%.10F', $var), '0'), ".");
  }
 
   /* RETURN AN ARRAY OF AVERAGE TARGETS */
