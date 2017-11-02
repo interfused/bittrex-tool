@@ -2,9 +2,12 @@
 //BITTREX
 //Building A Simple Bittrex Bot.  We are looking at day trading
 require_once('functions-math.php');
-$apikey='96f1ea746eed477b81b195bbb5675611';
-$apisecret='5e98fb64b67a414487fbc4fc1ec96d9b';
 
+//DEFINE YOUR BITTREX DETAILS HERE
+$apikey='1234567890';
+$apisecret='1234567890';
+
+/****** DO NOT EDIT BELOW ******/
 //coinmarketcap
 //amount minimum traded in USD
 $min_vol_usd = 500000;
