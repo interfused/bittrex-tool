@@ -1,0 +1,29 @@
+div{
+    box-sizing: border-box;
+}
+h1{
+  text-align: center;
+}
+#buying{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.symbol_detail_wrapper{
+  height: 200px;
+  overflow: auto;
+  width: 40%;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+.pricing_symbol_averages{
+  width: 50%;
+}
+
+h2.main{
+  width: 100%;
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding-top: 1em;
+}
